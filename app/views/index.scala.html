@@ -1,0 +1,16 @@
+@(title: String)
+
+@main(title) {	
+    <div class="row">
+	<div class="span12">
+	<textarea class="span12" id="textarea" rows="14"></textarea>
+	
+	<form method="POST" action="/speak" class="form-horizontal">
+    	<div class="input-append">
+		<input class="span4" id="appendedInputButton" size="100" type="text" name="msg"><button class="btn" type="submit">speak &lt;</button>
+		</div>    
+	</form>
+    </div>
+	</div>
+}
+
